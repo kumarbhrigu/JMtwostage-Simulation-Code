@@ -1,13 +1,19 @@
+
+################################################################################
+###         This file includes sample Rcode for the manuscript         #########
+# A Two-stage Joint model Approach to Handle Incomplete Time Dependent Markers #
+#                            in Survival Data through                          #
+#           Inverse Probability Weight and Multiple Imputation                 #
+################################################################################
+
 ################################################################################
 # Successfull simulation with 100,200,300 sample size and (z_1,y_1), y_1 is    #
 # time dependent covariate and simulation scenerio considers low missing values# 
 # in three different missing data mechanism MCAR, MAR, MNAR. functions we have #
 # used are jm2s, jmLOCF, jmMI, jmwMI.                                          #
 #                                                                              #
-#                                                                              #
-#                                                                              #
-#                                                                              #
 ################################################################################
+rm(list = ls())
 library(MASS)
 library(dplyr)
 library(boot)
