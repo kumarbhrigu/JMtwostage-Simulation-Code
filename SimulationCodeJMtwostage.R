@@ -11,7 +11,12 @@
 # time dependent covariate and simulation scenerio considers low missing values# 
 # in three different missing data mechanism MCAR, MAR, MNAR. functions we have #
 # used are jm2s, jmLOCF, jmMI, jmwMI.                                          #
+# Author: Bhrigu Kumar Rajbongshi                                              #
+# Date: YYYY-MM-DD                                                             #
+# Contact: kumarbhrigu536@gmail.com                                            #
 #                                                                              #
+# Copyright (c) 2024 Bhrigu Kumar Rajbongshi                                   #
+# This code is licensed under the MIT License. See the LICENSE file for details.                                                                           #
 ################################################################################
 rm(list = ls())
 library(MASS)
