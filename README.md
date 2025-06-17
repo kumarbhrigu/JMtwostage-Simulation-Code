@@ -1,7 +1,13 @@
 # JMtwostage-Simulation-Code
-The repo contains R code file for simulation study for our manuscript "A Two-stage Joint model Approach to Handle Incomplete Time Dependent Markers in Survival Data through Inverse Probability Weight and Multiple Imputation".
 
-You can install the package directly from GitHub using the `remotes` package:
+This repository contains the R code used for the simulation study in our manuscript titled:  
+**"A Two-stage Joint Modeling Approach to Handle Incomplete Time-Dependent Markers in Survival Data through Inverse Probability Weighting and Multiple Imputation."**
+
+The code implements a two-stage method that combines **multiple imputation (MI)** and **inverse probability weighting (IPW)** to address missing longitudinal biomarker data in joint modeling of longitudinal and survival outcomes. The simulations evaluate the performance of the proposed method under various missing data mechanisms (MCAR, MAR, MNAR) and sample sizes.
+
+## 🔧 Installation
+
+You can install the accompanying R package `JMtwostage` directly from GitHub using the [`remotes`](https://cran.r-project.org/package=remotes) package:
 
 ```r
 # Install remotes if not already installed
